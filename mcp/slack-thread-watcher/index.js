@@ -228,7 +228,7 @@ const TOOLS = [
     inputSchema: {
       type: 'object',
       properties: {
-        channel_id: { type: 'string', description: 'Restrict to canvases shared in this channel ID (e.g. C06KAQ9PTSS). Omit to list across the workspace.' },
+        channel_id: { type: 'string', description: 'Restrict to canvases shared in this channel ID (e.g. C0123456789). Omit to list across the workspace.' },
         limit: { type: 'number', description: 'Max results (default 20, max 100).' },
       },
     },
